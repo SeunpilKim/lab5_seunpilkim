@@ -68,7 +68,9 @@ div#first{
     display: block;
     color: #e51212;
     text-align: center;
-    margin-right: 50%;
+    margin-right: 30%;
+		margin-left: 30%;
+		margin-bottom: 30px;
 		font-size: 250%;
     text-decoration: none;
 }
@@ -78,17 +80,28 @@ div#first{
 
 }
 
+
 body{
 	background-color: rgba(255,255,0,.25);
 }
+#earth_body{
+	background-color: rgba(0,255,255,.25);
+}
 
 #tables{
-	width:100%;
 	
-}
-table,th,td{
+	width:100%;
 	border: 1px solid black;
 }
+#name{
+	font-weight: bold;
+	color: red;
+}
+#tables tr,td,th{
+	border: 1px solid black;
+	
+}
+
 #earth{
 	width:200px;
 	height:200px;
@@ -150,73 +163,34 @@ table,th,td{
 
 /*----------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
-
-
-#picture
-{
+#earth_table{
+	margin-right:5%;
+	margin-left:5%;
+	
+	
+	border: 1; 
+	background-color:  rgba(255,0,0,.35);
+	
+}
+#earth_table tr,td{
+	font-weight: bold;
+	width: 400px;
+	height: 40px;
+	vertical-align: middle;
 	border: 1px solid black;
-	background-color:#00ff21;
+	
 }
-
-section.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: right;
-    width: 300px;
-    margin-right: 100px;
-		background-color: #12e590;
-}
-
-section.gallery:hover {
-    border: 1px solid #777;
-}
-
-section.gallery img {
-    width: 300px;
-    height: 200px;
-}
-
-section.gallery2 {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: right;
-    width: 300px;
-    margin-right: 300px;
-		background-color: #12e590;
-}
-
-section.gallery2:hover {
-    border: 1px solid #777;
-}
-
-section.gallery2 img {
-    width: 300px;
-    height: 200px;
+#arrow{
+	float:right;
+	width:120px;
+	height:100px;
 }
 
 
-section.desc {
-    padding: 15px;
-    text-align: center;
-		
-}
 
-#contact
-{
-    overflow: auto;
-    width: 98%;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-right: 150px;
-    margin-left: 5px;
-    padding: 10px;
-    border: 1px solid black;
-}
 
 /* Resume CSS --------------------------------------------------------------------------------------------*/
+
 #personal
 {
 		text-align: right;
