@@ -47,8 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Project 2 CSS code --------------------------------------------------------------------------------------------*/
-
+/* Add Lab 5 CSS code --------------------------------------------------------------------------------------------*/
+#main{
+	position:relative;
+}
+div#first{
+	background-image: url("image/background.jpg");
+	opacity:0.5;
+	width:100%;
+	height:1000px;
+}
 /* Main navigation bar -----------------------------------------------------------------------------------------------*/
 #home {
     
@@ -67,26 +75,78 @@ table {
 
 #home a:hover {
     background-color: #111111;
+
 }
 
+body{
+	background-color: rgba(255,255,0,.25);
+}
+
+#tables{
+	width:100%;
+	
+}
+table,th,td{
+	border: 1px solid black;
+}
+#earth{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+#jupiter{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+#neptune{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+#moon{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+#saturn{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+#uranus{
+	width:200px;
+	height:200px;
+	border-radius: 8px;
+}
+
+#earth:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
+
+#jupiter:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
+#moon:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
+#saturn:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
+#uranus:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
+#neptune:hover{
+	transform: scale(1.3);
+	transition: .3s ease-in-out;
+}
 /*----------------------------------------------------------------------------------------------------------------------*/
-#backgroundphoto {
-		width: 100%;
-		height: 100%;
-		opacity: 0.7;
-		
-		background-imageopacity: 0.5;
-}
 
-
-
-#jockerphoto
-{
-    float: left;
-		height: 350px;
-    width: 350px;
-		margin-top: 20px;
-} 
 
 /*----------------------------------------------------------------------------------------------------------------------*/
 
